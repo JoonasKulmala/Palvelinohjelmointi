@@ -1,6 +1,8 @@
 # 1. Introduction
 
-Run the java application file `PalvelinohjelmointiApplication.java` and open browser at `localhost:8080`
+App logic is in file [HelloController.java](src/main/java/com/example/Palvelinohjelmointi/web/HelloController.java)
+
+Run the java application file [PalvelinohjelmointiApplication.java](src/main/java/com/example/Palvelinohjelmointi/PalvelinohjelmointiApplication.java) and open browser at `localhost:8080`
 
 `/`
 *Hello Spring*

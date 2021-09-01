@@ -6,7 +6,7 @@
 
 ## Course description
 
-This course is about Java & Spring Framework. Exercises returned are located within subdirectories.
+This course is about Java & Spring Framework. Exercises returned here are located in each topic's subdirectory:
 
 ![tree_exercise](Resources/tree_exercise_location.png)
 
