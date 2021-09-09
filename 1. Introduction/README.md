@@ -29,4 +29,4 @@ Run the java application file [PalvelinohjelmointiApplication.java](src/main/jav
 
 ## 3. Git & Github
 
-This projects is already using Git and is being published on GitHub.
+This project is already using Git and is being published on GitHub.
