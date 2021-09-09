@@ -3,7 +3,7 @@
 - [2. Model & View](#2-model--view)
   - [1. Hello Thymeleaf](#1-hello-thymeleaf)
   - [2. Handling Lists](#2-handling-lists)
-  - [3. Friend List (Incomplete)](#3-friend-list-incomplete)
+  - [3. Friend List](#3-friend-list)
   - [4. Bookstore](#4-bookstore)
 
 Run the java application file [PalvelinohjelmointiApplication.java](src/main/java/com/example/Palvelinohjelmointi/PalvelinohjelmointiApplication.java) and open browser at `localhost:8080`
@@ -27,7 +27,9 @@ If age is < 18: *You are too young!*
 
 `/studentlist`
 
-![exercise2](Resources/exercise2.png)
+<kbd>
+  <img src="Resources/exercise2.png", width=400 height=100%>
+</kbd>
 
 ## 3. Friend List
 
@@ -38,7 +40,9 @@ If age is < 18: *You are too young!*
 
 `/index`
 
-![exercise3_index](Resources/exercise3_index.png)
+<kbd>
+  <img src="Resources/exercise3_index.png", width=400 height=50%>
+</kbd>
 
 Submitting redirects to confirmation page `result.html`
 
@@ -46,7 +50,9 @@ Submitting redirects to confirmation page `result.html`
 
 Returning to `/index` shows new name(s) added to list
 
-![exercise3_add](Resources/exercise3_add.PNG)
+<kbd>
+  <img src="Resources/exercise3_add.png", width=400 height=100%>
+</kbd>
 
 ## 4. Bookstore
 
