@@ -3,7 +3,7 @@
 - [2. Model & View](#2-model--view)
   - [1. Hello Thymeleaf](#1-hello-thymeleaf)
   - [2. Handling Lists](#2-handling-lists)
-  - [3. Friend List](#3-friend-list)
+  - [3. Friend List (Incomplete)](#3-friend-list-incomplete)
   - [4. Bookstore](#4-bookstore)
 
 Run the java application file [PalvelinohjelmointiApplication.java](src/main/java/com/example/Palvelinohjelmointi/PalvelinohjelmointiApplication.java) and open browser at `localhost:8080`
@@ -29,6 +29,30 @@ If age is < 18: *You are too young!*
 
 ![exercise2](Resources/exercise2.png)
 
-## 3. Friend List
+## 3. Friend List (Incomplete)
+
+- [Friend.java](src/main/java/com/example/Palvelinohjelmointi/domain/Friend.java)
+- [FriendController](src/main/java/com/example/Palvelinohjelmointi/web/FriendController.java)
+- [index.html](src/main/resources/templates/index.html)
+- [result.html](src/main/resources/templates/result.html)
+
+`/index`
+
+![exercise3_index](Resources/exercise3_index.png)
+
+Submitting redirects to confirmation page `result.html`
+
+![exercise3_result](Resources/exercise3_result.png)
+
+**NOTE:** List is not updated // *TO BE ADDED*
 
 ## 4. Bookstore
+
+Link to repository: https://github.com/JoonasKulmala/Bookstore/tree/master
+
+This project will be updated throughout the course
+
+As per instructions these features have been implemented:
+
+- Create controller to handle GET request to path `index`
+- Create class Book with attributes *title, author, year, isbn, price*

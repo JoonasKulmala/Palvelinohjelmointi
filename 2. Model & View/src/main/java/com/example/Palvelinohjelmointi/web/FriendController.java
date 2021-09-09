@@ -19,6 +19,7 @@ public class FriendController {
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String friendForm(Model model) {
 		
+		// Hard coded Friend object example
 		Friend friend1 = new Friend();
 		friend1.setName("John Doe");
 		List<Friend> friends = new ArrayList<Friend>();
@@ -28,19 +29,14 @@ public class FriendController {
 		return "index";
 		
 	}
-	
-	@GetMapping("/result")
-	public String resultAccess(Model model) {
-		return "result";
-	}
 
 	@RequestMapping(value = "/index", method = RequestMethod.POST)
-	public String friendSubmit(@ModelAttribute Friend name, @Valid BindingResult bindingResult, Model model) {
+	public String friendSubmit(@Valid Friend name, BindingResult bindingResult, Model model) {
 		if (bindingResult.hasErrors()) {
 			return "redirect:/index";
 			
 		}
-		model.addAttribute("friends", name);
+		model.addAttribute("friend", name);
 		return "result";
 	}
 }
