@@ -46,7 +46,9 @@ If age is < 18: *You are too young!*
 
 Submitting redirects to confirmation page `result.html`
 
-![exercise3_result](Resources/exercise3_result.png)
+<kbd>
+  <img src="Resources/exercise3_result.png", width=400 height=100%>
+</kbd>
 
 Returning to `/index` shows new name(s) added to list
 
