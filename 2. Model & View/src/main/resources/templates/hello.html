@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="template.css">
+    <title>
+        Hello Thymeleaf
+    </title>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav>
+    </nav>
+
+    <div>
+        <p th:if="${age} &gt; 17" th:text="'Welcome ' + ${name} + '!'">TRUE</p>
+        <p th:if="${age} &lt; 18" th:text="'You are too young!'">FALSE</p>
+    </div>
+
+    <aside>
+    </aside>
+
+</body>
+
+</html>

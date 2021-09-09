@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+
+    </style>
+    <link rel="stylesheet" type="text/css" href="template.css">
+    <title>
+        Studentlist
+    </title>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav>
+    </nav>
+
+    <div>
+        <h1>Welcome to Haaga-Helia!</h1>
+
+        <table>
+            <tr th:each="student : ${students}">
+                <td th:text="${student.firstName}">firstName</td>
+                <td th:text="${student.lastName}">lastName</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <aside>
+    </aside>
+
+</body>
+
+</html>
