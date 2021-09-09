@@ -51,7 +51,7 @@ Submitting redirects to confirmation page `result.html`
 Returning to `/index` shows new name(s) added to list
 
 <kbd>
-  <img src="Resources/exercise3_add.png", width=400 height=100%>
+  <img src="Resources/exercise3_add.PNG", width=400 height=100%>
 </kbd>
 
 ## 4. Bookstore
