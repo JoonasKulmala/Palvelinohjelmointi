@@ -29,7 +29,7 @@ If age is < 18: *You are too young!*
 
 ![exercise2](Resources/exercise2.png)
 
-## 3. Friend List (Incomplete)
+## 3. Friend List
 
 - [Friend.java](src/main/java/com/example/Palvelinohjelmointi/domain/Friend.java)
 - [FriendController](src/main/java/com/example/Palvelinohjelmointi/web/FriendController.java)
@@ -44,7 +44,9 @@ Submitting redirects to confirmation page `result.html`
 
 ![exercise3_result](Resources/exercise3_result.png)
 
-**NOTE:** List is not updated // *TO BE ADDED*
+Returning to `/index` shows new name(s) added to list
+
+![exercise3_add](Resources/exercise3_add.PNG)
 
 ## 4. Bookstore
 
