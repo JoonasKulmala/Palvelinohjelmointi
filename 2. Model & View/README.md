@@ -29,7 +29,7 @@ If age is < 18: *You are too young!*
 
 <kbd>
   <img src="Resources/exercise2.png", width=400 height=100%>
-</kbd>
+</kbd>  
 
 ## 3. Friend List
 
