@@ -1,0 +1,6 @@
+target/
+Zips/
+
+.classpath
+.project
+.settings/

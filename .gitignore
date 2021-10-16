@@ -1,1 +1,7 @@
-/Zips
+# Zipped projects of assignments
+Zips/
+
+# Various
+.classpath
+.project
+.settings/
